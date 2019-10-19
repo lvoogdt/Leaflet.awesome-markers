@@ -26,7 +26,7 @@
             shadowAnchor: [10, 12],
             shadowSize: [36, 16],
             className: 'awesome-marker',
-            prefix: 'glyphicon',
+            prefix: '',
             spinClass: 'fa-spin',
             extraClasses: '',
             icon: 'home',
@@ -58,10 +58,10 @@
         _createInner: function() {
             var iconClass, iconSpinClass = "", iconColorClass = "", iconColorStyle = "", options = this.options;
 
-            if(options.icon.slice(0,options.prefix.length+1) === options.prefix + "-") {
+            if(options.icon.slice(0,options.prefix.length+1) === options.prefix + "fa ") {
                 iconClass = options.icon;
             } else {
-                iconClass = options.prefix + "-" + options.icon;
+                iconClass = options.prefix + "fa " + options.icon;
             }
 
             if(options.spin && typeof options.spinClass === "string") {
