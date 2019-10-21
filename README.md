@@ -11,7 +11,7 @@ For bootstrap 2.x & Fontawesome 3.x use Leaflet.awesome-markers v1.0
 
 ## Screenshots
 ![AwesomeMarkers screenshot](https://raw.github.com/lvoogdt/Leaflet.awesome-markers/master/screenshots/screenshot-soft.png "Screenshot of AwesomeMarkers")
-
+	
 <a href="http://jsfiddle.net/VPzu4/92/" target="_blank">JSfiddle demo</a> 
 
 ### Twitter Bootstrap/Font-Awesome icons
@@ -107,6 +107,19 @@ Set default prefix to something other than `glypicon`
 ````
 
 See [JSFIddle](http://jsfiddle.net/markmarijnissen/VPzu4/286/)
+
+### Using Square Markers
+
+![Square Markers screenshot](/screenshots/screenshot-square-markers.png "Screenshot of Square Markers")
+
+````js
+  // Creates a red square marker with the coffee icon
+  var squareRedMarker = L.AwesomeMarkers.icon({
+    icon: 'coffee',
+    markerColor: 'red'
+    className: 'awesome-marker awesome-marker-square'
+  });
+````
 
 ## License
 - Leaflet.AwesomeMarkers and colored markers are licensed under the MIT License - http://opensource.org/licenses/mit-license.html.

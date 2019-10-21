@@ -122,3 +122,7 @@ Version: 1.0
 .awesome-marker-icon-black {
   background-position: -682px 0;
 }
+
+.awesome-marker-square {
+  background-position-y: -46px;
+}
