@@ -7,8 +7,8 @@
   ],
   "description": "Colorful iconic & retina-proof markers for Leaflet, based on the Glyphicons / Font-Awesome icons",
   "main": [
-  	"dist/leaflet.awesome-markers.css",
-  	"dist/leaflet.awesome-markers.js"
+  	"dist/css/leaflet.awesome-markers.css",
+  	"dist/js/leaflet.awesome-markers.js"
   ],
   "license": "MIT",
   "ignore": [
